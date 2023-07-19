@@ -1,13 +1,33 @@
 import React from "react";
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet, Image, TouchableOpacity } from "react-native";
+
 
 export default class OcCard extends React.Component {
     render() {
         return (
-            <View>
-                <Text>
-                    OC Card
-                </Text>
+            <View style={styles.container}>
+                <View style={styles.imageContainer}>
+                    <Image style={styles.ocImage}
+                        source={require("../assets/naosei.jpg")}
+                    />
+                </View>
+                <View style={styles.lowerContainer}>
+
+
+                    <View style={styles.textContainer}>
+                        <Text style={styles.text}>
+                            Alfredo
+                        </Text>
+                        <Text style={styles.text}>
+                            Carlos
+                        </Text>
+                    </View>
+                    <TouchableOpacity style={styles.seeMoreButton}>
+                        <Text style={styles.seeMoreText}>
+                            Ver Mais
+                        </Text>
+                    </TouchableOpacity>
+                </View>
             </View>
 
         )
@@ -17,9 +37,40 @@ export default class OcCard extends React.Component {
 }
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
         justifyContent: "center",
-        alignItems: "center"
-    }
+        alignItems: "center",
+        borderWidth: 2
+    },
+    textContainer: {
 
+
+    },
+    seeMoreButton: {
+
+
+    },
+    seeMoreText: {
+
+
+    },
+    imageContainer: {
+        borderWidth: 2,
+        height: 200
+
+    },
+    lowerContainer: {
+        borderWidth: 2
+
+
+
+    },
+    ocImage: {
+        resizeMode: "cover",
+        height: "100%",
+    },
+    text: {
+
+
+
+    },
 })

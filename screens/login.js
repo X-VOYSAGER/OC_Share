@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from "react-native";
 export default class Login extends React.Component {
     render() {
         return (
-            <View>
+            <View style={styles.container}>
                 <Text>
                     Login
                 </Text>

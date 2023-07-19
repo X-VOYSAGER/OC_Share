@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Alfredo",
+        "creator": "Carlos",
+        "image": "",
+        "nickname": "Alfred",
+        "gender": "Masculino",
+        "idade": "25 anos",
+        "extra": ""
+    },
+    {
+        "name": "Cleber",
+        "creator": "Carlos",
+        "image": "",
+        "nickname": "Alfred",
+        "gender": "Masculino",
+        "idade": "25 anos",
+        "extra": ""
+    }
+]

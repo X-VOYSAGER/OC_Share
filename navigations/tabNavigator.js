@@ -8,7 +8,7 @@ const Tab = createBottomTabNavigator();
 
 export default function TabNavigator() {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator screenOptions={{headerShown: false}}>
       <Tab.Screen name="Feed" component={Feed} />
       <Tab.Screen name="OC Create" component={OcCreate} />
       <Tab.Screen name="OC List" component={OcList} />

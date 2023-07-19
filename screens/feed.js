@@ -1,13 +1,15 @@
 import React from "react";
 import { Text, View, StyleSheet } from "react-native";
+import OcCard from "../components/ocCard";
+
+var OC = require("./tempCard.json")
 
 export default class Feed extends React.Component {
     render() {
         return (
             <View>
-                <Text>
-                    Feed
-                </Text>
+                <OcCard/>
+                <OcCard/>
             </View>
 
         )

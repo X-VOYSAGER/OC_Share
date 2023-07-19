@@ -7,7 +7,7 @@ const Stack = createStackNavigator();
 
 export default function StackNavigator() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator screenOptions={{headerShown: false}}>
       <Stack.Screen name="Tab" component={TabNavigator} />
       <Stack.Screen name="OC Info" component={OcInfo} />
     </Stack.Navigator>
