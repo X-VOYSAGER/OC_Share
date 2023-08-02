@@ -7,7 +7,7 @@ var OC = require("./tempCard.json")
 export default class Feed extends React.Component {
     render() {
         return (
-            <View>
+            <View style = {styles.container}>
                 <OcCard/>
                 <OcCard/>
             </View>
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        backgroundColor: "#c8bfe7"
     }
-
 })
