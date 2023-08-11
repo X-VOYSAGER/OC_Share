@@ -152,4 +152,3 @@ const styles = StyleSheet.create({
 
 
 })
-// exp://eyjtmta.anonymous.19000.exp.direct:80

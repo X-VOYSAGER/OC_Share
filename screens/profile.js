@@ -6,7 +6,7 @@ export default class Profile extends React.Component {
         return (
             <View>
                 <Text>
-                    Profile
+                    Este é o seu perfil!
                 </Text>
             </View>
 
